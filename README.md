@@ -9,9 +9,9 @@ tokenizer = AutoTokenizer.from_pretrained("DeepPavlov/rubert-base-cased-sentence
 
 model = AutoModelForTokenClassification.from_pretrained("DeepPavlov/rubert-base-cased-sentence")
 
-Epoch	Training Loss	Validation Loss	Precision	Recall	F1	Accuracy
-
-25	0.001300	0.895051	0.800244	0.792887	0.796548	0.900756
+Epoc|	Training| Loss|	Validation| Loss|	Precision|	Recall|	F1|	Accuracy
+|----------------|:---------:|----------------:|
+25|	0.001300|	0.895051|	0.800244|	0.792887|	0.796548|	0.900756
 
 ## Пример:
 
