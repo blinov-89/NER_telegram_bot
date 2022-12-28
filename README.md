@@ -9,8 +9,8 @@ tokenizer = AutoTokenizer.from_pretrained("DeepPavlov/rubert-base-cased-sentence
 
 model = AutoModelForTokenClassification.from_pretrained("DeepPavlov/rubert-base-cased-sentence")
 
-Epoc |	Training | Loss |	Validation | Loss |	Precision |	Recall |	F1 |	Accuracy
-|----------------|:---------:|----------------:|----------------|:---------:|----------------:|----------------|:---------:|----------------:|
+Epoc |	Training Loss |	Validation Loss |	Precision |	Recall |	F1 |	Accuracy
+|----------------|:---------:|----------------:|----------------|:---------:|----------------:|----------------|
 25 |	0.001300 |	0.895051 |	0.800244 |	0.792887 |	0.796548 |	0.900756
 
 ## Пример:
@@ -48,3 +48,9 @@ token_classifier("Отвечая на вопрос, кто принял реше
   'score': 0.9999304,
   'start': 170,
   'word': 'министерством иностранных дел'}]
+  
+  
+
+![04](https://user-images.githubusercontent.com/61515881/209784337-d66d7ae5-eb6c-429a-a4ab-2a74e6077a0f.png)
+
+![05](https://user-images.githubusercontent.com/61515881/209784347-7976d0b4-5076-493c-bf25-7ed41a824616.png)
